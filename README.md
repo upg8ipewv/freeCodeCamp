@@ -1,27 +1,40 @@
 # Contributing to freeCodeCamp
 
-Thank you for taking the time to contribute to freeCodeCamp! We welcome contributions from developers of all skill levels.
+First off, thank you for considering contributing to freeCodeCamp! It's people like you that make freeCodeCamp such a great community.
 
-## Getting Started
+## Table of Contents
 
-1. **Fork the repository** on GitHub.
-2. **Clone your fork** to your local machine:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/freeCodeCamp.git
-   ```
-3. **Set up the local environment** by following our setup guide in the documentation.
+- [Code of Conduct](#code-of-conduct)
+- [How Can I Contribute?](#how-can-i-contribute)
+  - [Reporting Bugs](#reporting-bugs)
+  - [Suggesting Enhancements](#suggesting-enhancements)
+  - [Pull Requests](#pull-requests)
+- [Setting Up the Project](#setting-up-the-project)
 
-## Guidelines
+## Code of Conduct
 
-- Follow our [Code of Conduct](https://www.freecodecamp.org/news/code-of-conduct/) in all community interactions.
-- Make sure to test your changes locally before submitting a pull request.
-- Keep pull requests focused on a single issue or feature.
-- Follow existing code style and formatting guidelines.
+This project and everyone participating in it is governed by the [freeCodeCamp Code of Conduct](https://www.freecodecamp.org/news/code-of-conduct/). By participating, you are expected to uphold this code.
 
-## Community & Resources
+## How Can I Contribute?
 
-- [Contributor Documentation](https://contribute.freecodecamp.org/)
-- [Community Forum](https://forum.freecodecamp.org/)
-- [Discord Server](https://discord.gg/freecodecamp)
+### Reporting Bugs
 
-Happy coding!
+Before creating bug reports, please check existing issues to see if the problem has already been reported.
+
+When creating a bug report, please include as many details as possible:
+* Use a clear and descriptive title.
+* Describe the exact steps to reproduce the issue.
+* Provide specific examples, environment details, or screenshots if applicable.
+
+### Pull Requests
+
+1. Fork the repository and create your branch from `main`.
+2. Ensure your changes follow our coding style guidelines.
+3. Test your changes locally before submitting.
+4. Open a pull request following our PR template guidelines.
+
+## Setting Up the Project
+
+Please read our detailed guide on [How to setup freeCodeCamp locally](docs/how-to-setup-freecodecamp-locally.md).
+
+Thank you for helping make freeCodeCamp better for everyone!
