@@ -1,21 +1,18 @@
-# freeCodeCamp.org
+# Secret keys and configuration for freeCodeCamp
 
-[![CI Status](https://github.com/freeCodeCamp/freeCodeCamp/workflows/CI/badge.svg)](https://github.com/freeCodeCamp/freeCodeCamp/actions)
+# Base API URL
+API_LOCATION=http://localhost:3000
 
-[freeCodeCamp.org](https://www.freecodecamp.org) is a friendly open-source community where you can learn to code for free.
+# Home location for the client app
+HOME_LOCATION=http://localhost:8000
 
-## Our Curriculum
+# MongoDB connection URI (default local port: 27017)
+MONGOHQ_URL=mongodb://localhost:27017/freecodecamp
 
-Our full-stack web development and machine learning curriculum is completely free and self-paced. It includes thousands of interactive coding challenges and hands-on projects.
+# Cookie and session secrets (use random strings in production)
+SESSION_SECRET=a_very_secret_key_change_me
+JWT_SECRET=another_very_secret_key_change_me
+COOKIE_SECRET=cookie_secret_change_me
 
-## Contributing
-
-We welcome contributions from developers around the world! Whether you are fixing a typo in a lesson, translating content into your native language, or improving platform features, your help is appreciated.
-
-Please check out our [Contribution Guidelines](https://contribute.freecodecamp.org) to get started with setting up the project locally.
-
-## License
-
-Copyright (c) 2014-present freeCodeCamp.org.
-
-Code released under the [BSD-3-Clause License](LICENSE).
+# Node Environment (development | production | test)
+NODE_ENV=development
